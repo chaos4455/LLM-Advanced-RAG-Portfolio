@@ -1,4 +1,4 @@
-# 🌟 Portfolio de Implementação de RAG - Elias Andrade 🌟
+# 🌟 Portfolio  -  Implementação de RAG com python e sqlite on scratch🌟
 
 ![RAG Badge](https://img.shields.io/badge/RAG_Implementation-Complete-brightred)
 ![Version](https://img.shields.io/badge/Version-1.0-brightred)
