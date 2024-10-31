@@ -33,11 +33,15 @@ Em resumo:
 - 📝 **Geração (Generation):** Usa essas informações para produzir respostas detalhadas e contextuais.
 - ✅ **Benefício:** Maior precisão e consistência, especialmente em tarefas que exigem conhecimento atualizado ou específico.
 
+<img width="841" alt="Screen-Shot-2018-04-25-at-13 21 44" src="https://github.com/user-attachments/assets/4c3a9362-101c-41e6-b5e0-45570ae190df">
+
 ---
 
 ## 📊 O que é um Banco Vetorial?
 
 Um **banco vetorial** é uma estrutura de dados que armazena informações em formato de vetores numéricos em vez de texto puro. Isso possibilita que textos, imagens ou qualquer dado seja transformado em vetores que capturam seu significado ou contexto de forma matemática, utilizando **embeddings** para representar semântica e relevância. Esses vetores permitem operações como **busca por similaridade**, onde conteúdos semelhantes são identificados com rapidez e eficiência através da proximidade vetorial.
+
+![How-Embeddings-Work](https://github.com/user-attachments/assets/e7cac95a-536b-4db3-ba26-b25246f9591c)
 
 ### 🛠️ Como Funciona um Banco Vetorial?
 1. **Conversão para Vetores:** Dados textuais são convertidos para vetores utilizando modelos de embeddings, como o BERT, ou técnicas mais modernas e robustas, como o **transformer embeddings**.
@@ -45,6 +49,8 @@ Um **banco vetorial** é uma estrutura de dados que armazena informações em fo
 3. **Busca por Similaridade:** Quando uma consulta é feita, ela também é convertida em vetor e comparada com os vetores no banco, retornando os mais próximos, ou seja, os mais contextualmente relevantes.
 
 Os bancos vetoriais, portanto, permitem realizar buscas semânticas profundas, encontrando dados correlatos de forma muito mais sofisticada e precisa do que buscas por palavras-chave.
+
+![maxresdefault](https://github.com/user-attachments/assets/3b3cf80f-629d-4feb-b7ef-34e7228bba27)
 
 ---
 
@@ -56,16 +62,23 @@ Um **vetor**, no contexto da IA, é uma representação numérica que captura as
 
 Por exemplo, ao transformar uma frase em vetor, o modelo de IA capta semântica, tom e intenção, de modo que frases semelhantes (em significado) tenham representações vetoriais próximas.
 
+![sualizations-of-the-SVD-based-node2vec-embeddings-first-row-and-original-node2vec_Q320](https://github.com/user-attachments/assets/48335866-c039-4165-a292-c81cb2559b17)
+
 ### 🔹 O que é um Embedding?
 
 Um **embedding** é a técnica utilizada para transformar dados complexos, como frases e imagens, em vetores de alta dimensionalidade. O embedding é gerado por modelos de aprendizado profundo e serve como uma **"impressão digital"** do conteúdo, permitindo comparações precisas. Esses embeddings são criados por modelos treinados para entender nuances e relações entre palavras e frases, o que significa que **embeddings capturam o significado contextual** e permitem operações avançadas de busca semântica.
 
 - **Exemplo:** Em um modelo de embeddings, palavras como "carro" e "automóvel" gerariam vetores muito próximos, enquanto palavras como "carro" e "banana" estariam distantes no espaço vetorial.
 
+  ![0_hkbsIc6g6u9DWZMH](https://github.com/user-attachments/assets/9686d66f-2120-4b28-84a7-8c67ae61a7bb)
+
+
 ### 🔹 Criação e Utilização de Embeddings
 
 1. **Modelos de Embeddings:** Modelos de linguagens, como BERT, RoBERTa e GPT, são usados para gerar embeddings. Esses modelos são pré-treinados em grandes volumes de texto para captar significado e contexto das palavras.
 2. **Aplicação dos Embeddings:** Uma vez que um dado (ex. frase) é convertido para um embedding, ele pode ser armazenado em um banco vetorial e comparado com outros embeddings, permitindo buscas e análises contextuais sofisticadas.
+3. 
+![fig3](https://github.com/user-attachments/assets/7f40cfe6-fa23-4583-912d-51ad7d892dfc)
 
 ---
 
@@ -79,17 +92,22 @@ O uso de RAG e bancos vetoriais têm aplicações práticas extensas e profundas
 - **Recuperação de Documentos e Pesquisa Jurídica:** Localizam documentos complexos e específicos rapidamente, aumentando a eficiência.
 - **Geração de Conteúdo:** Utilizam dados específicos e embasados para gerar textos, estudos e análises de forma automatizada e precisa.
 
+![image10-ebe747ac9f2e03dba758f1ed3ea7e82c](https://github.com/user-attachments/assets/d00a7120-720c-400d-9059-d7b06ee014b8)
+
 ### 🔥 Vantagens
 - **Alta Relevância:** Dados são recuperados com base em similaridade semântica, não apenas por palavras-chave.
 - **Escalabilidade:** Bancos vetoriais são altamente escaláveis e eficientes para consultas em tempo real.
 - **Precisão Contextual:** Embeddings melhoram a compreensão do modelo sobre significado e contexto, aumentando a qualidade da resposta gerada.
 
 ---
+![3d-vector-representation eabfb5ea](https://github.com/user-attachments/assets/3b9888cb-b067-4f95-9330-464daae7a7b5)
+
 
 ## 🧩 Conclusão
 
 A utilização de **RAG**, **bancos vetoriais** e **embeddings** transforma a maneira como IA processa, armazena e gera informações. Esses conceitos formam o núcleo de sistemas modernos de IA, permitindo buscas e geração de dados altamente contextualizadas, relevantes e rápidas. À medida que os modelos e técnicas de geração de embeddings e busca vetorial avançam, as aplicações se tornam mais sofisticadas e impactantes, fornecendo uma base sólida para sistemas de inteligência artificial que podem interagir com dados complexos de maneira eficiente e significativa.
 
+![vectors](https://github.com/user-attachments/assets/28c34267-e825-4567-8637-b5182aabb96e)
 
 ### 📈 Objetivos do Projeto
 
