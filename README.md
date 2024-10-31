@@ -126,7 +126,31 @@ A implementação de RAG possui diversas aplicações em sistemas autônomos e i
 
 Implementar um sistema RAG do zero usando Python, SQLite e Google Gemini foi um desafio gratificante que resultou em um produto final robusto e eficaz. Este projeto não apenas aprimorou minhas habilidades técnicas, mas também me proporcionou uma compreensão profunda das aplicações práticas do RAG em sistemas super inteligentes e autônomos.
 
-**Sinto-me empolgado em continuar explorando as possibilidades que o RAG oferece e estou ansioso para aplicá-lo em projetos futuros!** 🌟🚀
+### Veja abaixo vários prints de testes e validações do framework e sua aplicação na prática! 📸👇
+
+---
+
+### 📊 **Manipulação de Vetores e Conversão**
+- **Exemplo de Vetores**: Mostramos como criar, manipular e converter vetores em formatos utilizáveis para a IA.
+- **Transformações em DataFrame**: Demonstrações sobre como transformar vetores em DataFrames para uma análise mais robusta.
+
+---
+
+### 🔧 **Engenharia de Prompt e Embedding do RAG**
+- **Estratégias de Engenharia de Prompt**: Exemplos práticos de como construir prompts eficazes que maximizam a geração de resultados de qualidade.
+- **Embeddings**: Visualizações dos embeddings gerados, destacando como eles se integram ao processo de RAG.
+
+---
+
+### ⚙️ **Pipeline de Manipulação**
+- **Automação de Validação**: Exibições de automações que garantem a integridade do banco de vetores e da estrutura.
+- **Manuseio de Vetores**: Prints de como os vetores são manipulados ao longo do pipeline, desde a entrada até a geração de saídas.
+
+---
+
+### 🔍 **Validação e Testes**
+- **Testes de Estrutura**: Demonstrações da validação da estrutura dos dados em diferentes cenários.
+- **Resultados de Performance**: Análises de performance e precisão dos resultados gerados, com prints de testes em ação.
 
 ![RAG Success](https://img.shields.io/badge/Success-100%25-success)
 ![Ready for Production](https://img.shields.io/badge/Ready_for_Production-Yes-brightgreen)
